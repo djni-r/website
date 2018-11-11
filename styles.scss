@@ -1,0 +1,28 @@
+.container-fluid {
+    padding-left: 10px;
+
+    h1 {
+	padding: 10px;
+    }
+    
+    img {
+	max-width: 400px;
+	height: auto;
+    }
+
+    .side-nav a {
+	text-decoration: none;
+    }
+
+    a:hover {
+	color: #F08080;
+    }
+
+    @media (max-width: 400px) {
+	.side-nav {
+	    font-size: 30px;
+	}
+    }
+}
+
+	

@@ -1,9 +1,23 @@
-h1 {
+.container-fluid {
+  padding-left: 10px;
+}
+.container-fluid h1 {
+  padding: 10px;
+}
+.container-fluid img {
+  max-width: 400px;
+  height: auto;
+}
+.container-fluid .side-nav a {
+  text-decoration: none;
+}
+.container-fluid a:hover {
+  color: #F08080;
+}
+@media (max-width: 400px) {
+  .container-fluid .side-nav {
+    font-size: 30px;
+  }
 }
 
-img {
-    max-width: 200px;
-    height: auto;
-}
-
-	
+/*# sourceMappingURL=styles.css.map */

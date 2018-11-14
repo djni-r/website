@@ -10,6 +10,7 @@
 }
 .container-fluid .side-nav a {
   text-decoration: none;
+  color: black;
 }
 .container-fluid a:hover {
   color: #F08080;

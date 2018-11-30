@@ -1,3 +1,7 @@
+$pri-color: black;
+$sec-color: #148282;
+$ter-color: #eb545c;
+
 .container-fluid {
     padding-left: 10px;
 
@@ -8,18 +12,37 @@
     img {
 	max-width: 400px;
 	height: auto;
+	padding: 10px;
     }
 
-    .side-nav a {
+    video {
+	max-width: 640px;
+	max-height: 480px;
+    }
+
+    %nav-a {
 	text-decoration: none;
     }
+    .side-nav a {
+	@extend %nav-a;
+	color: $sec-color;
+    }
 
-    a:hover {
-	color: #F08080;
+    .inner-nav a {
+	@extend %nav-a;
+	color: $ter-color;
+    }
+
+    .side-nav a:hover {
+	color: $ter-color;
+    }
+
+    .inner-nav a:hover {
+	color: $sec-color;
     }
 
     @media (max-width: 480px) {
-	.side-nav {
+	.side-nav, .inner-nav {
 	    font-size: 25px;
 	}
     }

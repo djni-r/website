@@ -12,6 +12,7 @@
 .container-fluid video {
   max-width: 640px;
   max-height: 480px;
+  padding: 10px;
 }
 .container-fluid .c-nav a {
   text-decoration: none;

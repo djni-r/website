@@ -13,20 +13,14 @@
   max-width: 640px;
   max-height: 480px;
 }
-.container-fluid .inner-nav a, .container-fluid .side-nav a {
+.container-fluid .c-nav a {
   text-decoration: none;
 }
-.container-fluid .side-nav a {
+.container-fluid .c-nav a {
   color: #148282;
 }
-.container-fluid .inner-nav a {
+.container-fluid .c-nav a:hover {
   color: #eb545c;
-}
-.container-fluid .side-nav a:hover {
-  color: #eb545c;
-}
-.container-fluid .inner-nav a:hover {
-  color: #148282;
 }
 @media (max-width: 480px) {
   .container-fluid .side-nav, .container-fluid .inner-nav {

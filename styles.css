@@ -9,7 +9,12 @@
   height: auto;
   padding: 10px;
 }
-.container-fluid video {
+.container-fluid .vid-small {
+  max-height: 200px;
+  max-width: 640px;
+  padding: 10px;
+}
+.container-fluid video:not(.vid-small) {
   max-width: 640px;
   max-height: 480px;
   padding: 10px;

@@ -15,7 +15,13 @@ $ter-color: #eb545c;
 	padding: 10px;
     }
 
-    video {
+    .vid-small {
+	max-height: 200px;
+	max-width: 640px;
+	padding: 10px;
+    }
+    
+    video:not(.vid-small) {
 	max-width: 640px;
 	max-height: 480px;
 	padding: 10px;

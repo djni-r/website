@@ -9,6 +9,10 @@
   height: auto;
   padding: 10px;
 }
+.container-fluid iframe {
+  max-width: 640px;
+  padding: 10px;
+}
 .container-fluid .vid-small {
   max-height: 200px;
   max-width: 640px;

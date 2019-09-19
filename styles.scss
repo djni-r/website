@@ -4,9 +4,15 @@ $ter-color: #eb545c;
 
 .container-fluid {
     padding-left: 10px;
-
-    h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+    h1, h2, h3, h4 {
 	padding: 10px;
+    }
+
+    ul {
+	list-style-type: none;
     }
     
     img {

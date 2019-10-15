@@ -44,5 +44,9 @@
 .container-fluid .blog {
   padding: 10px;
 }
+.container-fluid .paint-descr {
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -41,5 +41,8 @@
     font-size: 25px;
   }
 }
+.container-fluid .blog {
+  padding: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
